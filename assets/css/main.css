@@ -296,6 +296,7 @@ h1 {
         
         justify-content: space-around;
         margin: 2%;
+        flex: 1 1 0;
     }
 
 
