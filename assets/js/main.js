@@ -32,5 +32,13 @@ $(document).ready(function () {
 
     })
 
+    $("#menu").click(function () {
+
+        if ($("#nav ul li:nth-child(2)").css("display") == "none") {
+            $("#nav ul li").css("display", "inline-block")
+        } else {
+            $("#nav ul li").css("display", "none")}
+    })
+
 
 });

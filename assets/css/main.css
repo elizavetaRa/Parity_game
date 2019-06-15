@@ -28,6 +28,15 @@ body {
     color: #ffffff;
   }
 
+  h1 {
+      font-size: 2.5em;
+    
+  }
+
+  h1, h2 {
+    font-weight: bold;
+  }
+
   a {
     text-decoration: none;
   }
@@ -66,27 +75,12 @@ h1 {
     filter: grayscale(70%); 
   }
 
-#about, #demo, #features {
+#about1, #demo, #features {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-#skill-overview {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-#skills {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#skills div img{
-    max-width: 8em;
-}
 
 
 
@@ -109,6 +103,7 @@ h1 {
     background-color: #ffffff;
     color: #ffffff;
     position: fixed;
+    z-index: 200;
     width: 100%;
     padding-top: 1em;
 	padding-bottom: 1em;
@@ -119,19 +114,6 @@ h1 {
     text-align: center;
 }
 
-
-    #nav code {
-        background: rgba(222, 222, 222, 0.25);
-        border-color: #dddddd;
-    }
-
-    #nav hr {
-        border-bottom-color: #dddddd;
-    }
-
-    #nav + #main {
-        padding-top: 4.25em;
-    }
 
     #nav ul {
         margin: 0;
@@ -184,31 +166,42 @@ h1 {
         z-index: 10000;
     }
 
-        #nav.alt ul li {
-            margin: 0 0.175em;
-        }
 
-            #nav.alt ul li a {
-                font-size: 0.9em;
-            }
-
-    @media screen and (max-width: 736px) {
-
-        #nav {
-            display: none;
-        }
-
-            #nav + #main {
-                padding-top: 0;
-            }
-
-    }
 
     #nav + #main {
         padding-top: 4.25em;
     }
 
 
+    #menu {
+        display: none !important;
+    }
+    
+    
+    @media screen and (max-width:  980px) {
+    
+        #nav {
+            background-color: rgba(209, 57, 199, 0.7);
+        }
+        
+        #nav ul {
+            
+            display: flex;
+            justify-content: space-around;
+        }
+        #nav ul li {
+             
+            font-size: 9pt;
+            
+        }
+
+        #header .logo img {
+            display: block;
+            margin: 0 auto;
+            max-width: 90vw;
+        }
+    
+    }
 
 
 
@@ -244,7 +237,7 @@ h1 {
             #header .logo img {
                 display: block;
                 margin: 0 auto;
-                max-width: 55%;
+                max-width: 70%;
             }
 
 
@@ -273,7 +266,7 @@ h1 {
     box-sizing: inherit;
 }
 
-    #about, #features {
+    #about1, #features {
         background-color: #2f2b2b;
         display: flex;
     }
@@ -287,16 +280,19 @@ h1 {
 
     /* About */
 
+
+
     .section-content {
         margin: 2%;
     }
 
-    #about-columns {
+    #about-columns1 {
         display: flex;
         flex-direction: row;
+
     }
 
-    .col {
+    .col1 {
         
         justify-content: space-around;
         margin: 2%;
@@ -340,14 +336,50 @@ h1 {
     border-radius: 10px;
 }
 
-    
 
+#skill-overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
+#skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+#skills div img{
+    max-width: 7vw;
+}    
+
+    /* Contact */
+
+    #contact-content {
+        display: flex;
+        justify-content: center;
+        margin: 2%;
+        
+    }
+
+    #contact-content div{
+        width: 30vw;
+    }
+
+    .btn-send {
+        background-color: rgb(10, 92, 10);
+        color: white;
+    }
 
 
 
     /* Footer */
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 
 
 
@@ -355,20 +387,32 @@ h1 {
 
     @media screen and (max-width: 1280px) {
 
-        #about-columns {
-            flex-direction: column;
+#about-columns1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
-    }
 
     #demo-video {
         width: 90vw;
         height: 50vw;
     }
+
+    #skills div img{
+        max-width: 10vw;
+    }  
+
+    #contact-content div{
+        width: 50vw;
+    }
 }
 
     @media screen and (max-width: 980px) {
 
-
+        #skills div img{
+            max-width: 12vw;
+        }  
 
     }
 
@@ -378,6 +422,12 @@ h1 {
             width: 100vw;
             height: 56vw;
         }
+
+        #contact-content div{
+            width: 70vw;
+        }
+
+
 
     }
 
