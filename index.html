@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
 	 crossorigin="anonymous">
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
@@ -27,73 +27,111 @@
 
 
 		<!-- Nav -->
-		<nav id="nav">
-			<ul>
-				<li data-scroll><a data-scroll href="#intro">About</a></li>
-				<li data-scroll><a data-scroll href="#demo">Demo</a></li>
-				<li data-scroll><a data-scroll href="#features">Features</a></li>
-				<li data-scroll><a data-scroll href="#footer">Contact</a></li>
-			</ul>
-		</nav>
+
+		<div id="fullscreen">
+			<div>
+				<nav id="nav">
+					<ul>
+						<li data-scroll><a data-scroll href="#header">Home</a></li>
+						<li data-scroll><a data-scroll href="#about">About</a></li>
+						<li data-scroll><a data-scroll href="#demo">Demo</a></li>
+						<li data-scroll><a data-scroll href="#features">Features</a></li>
+						<li data-scroll><a data-scroll href="#footer">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<!-- Header -->
 
 
-		<!-- Header -->
+			<div id="cent">
+				<header id="header">
 
+					<div id="header-content">
+						<div>
+							<span class="logo"><img src="assets/css/images/ParityLogoNeon.png" /></span>
+							<p>2D ball arcade</p>
+							<a target="_blank" href="" class="download-button">
+								<img src="assets/css/images/640-steam-logo_black.png">
+							</a>
+						</div>
+					</div>
+				</header>
+			</div>
 
-
-		<header id="header">
-			<br>
-			<br>
-			<span class="logo"><img src="assets/css/images/ParityLogoNeon.png" /></span>
-			<p>2D ball arcade</p>
-			<a target="_blank" href="http://store.steampowered.com/app/337960" class="download-button">
-				<img src="assets/css/images/640-steam-logo_black.png">
-			</a>
-			<br>
-			<br>
-		</header>
-
+		</div>
 
 		<!-- Main -->
 		<div id="main">
 
-			<!-- Introduction -->
-			<section id="intro" class="main">
-				<div id="about-content">
+			<!-- About -->
+			<section id="about" class="main">
+				<div class="section-content">
 					<header class="major">
-						<h2>About</h2>
+						<div>
+							<h1>About</h1>
+						</div>
 					</header>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-						dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-						book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-						unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
-						more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				</div>
-				<div id="about-video">
-					<iframe width="611" height="344" src="https://www.youtube.com/embed/-ZvTezhiYlI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-					 allowfullscreen></iframe>">
+
+					<div id="about-columns">
+
+						<div class="col">
+							<h2>Concept</h2>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+								standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+								a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+								essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+								passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+						</div>
+
+						<div class="col">
+							<h2>Rules</h2>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+								standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+								a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+								essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+								passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+						</div>
+
+						<div class="col">
+							<h2>Developers</h2>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+								standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+								a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+								essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+								passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+						</div>
+
+
+
+					</div>
+
 				</div>
 			</section>
+
+
 
 			<!-- Demo Section -->
-			<section id="demo" class="main special">
-				<header class="major">
-					<h2>Demo</h2>
-				</header>
-				<iframe width="917" height="516" src="https://www.youtube.com/embed/oM2ynYN9btU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-				 allowfullscreen></iframe>
-				<footer class="major">
+			<section id="demo" class="main">
+				<div class="section-content">
+					<header class="major">
+						<div>
+							<h1>Demo</h1>
+						</div>
 
-					<li><a href="generic.html" class="button">More gameplays here!</a>
+					</header>
+					<iframe width="611" height="344" src="https://www.youtube.com/embed/-ZvTezhiYlI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					 allowfullscreen></iframe>
 
-				</footer>
+				</div>
 			</section>
 
-			<!-- Second Section -->
+
+
+			<!-- Features -->
 			<section id="features" class="main special">
 				<header class="major">
 					<h2>Skills</h2>
-					<p>grdtd drtgjresdgjdr grgdr</p>
 				</header>
 
 				<div id="skills-overview">
@@ -122,11 +160,7 @@
 						</div>
 
 					</div>
-
-
 				</div>
-
-
 			</section>
 
 		</div>
