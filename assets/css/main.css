@@ -56,7 +56,11 @@ body {
 }
 
 .download-button img {
-    max-width: 10em;
+    max-width: 12em;
+}
+
+#social a img{
+    max-width: 6em;
 }
 
 
@@ -107,7 +111,7 @@ h1 {
     width: 100%;
     padding-top: 1em;
 	padding-bottom: 1em;
-    background-color: rgba(255, 71, 244, 0.5);
+    background-color: rgba(255, 71, 244, 0.6);
     border-top-left-radius: 0.25em;
     border-top-right-radius: 0.25em;
     cursor: default;
@@ -376,10 +380,18 @@ h1 {
 
     /* Footer */
 
+    #footer {
+        background-color: #2f2b2b;     
+    }
     .footer-content {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        
+        
+    }
+    .footer-content div{
+        margin: 1%;
     }
 
 
