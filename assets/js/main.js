@@ -16,13 +16,21 @@ $(document).ready(function () {
         event.preventDefault();
         var $section = $($(this).attr('href'));
         $('html, body').animate({
-            scrollTop: $section.offset().top-$("#nav").outerHeight()*1.1
+            scrollTop: $section.offset().top - $("#nav").outerHeight() * 1.1
         }, 500);
     }
     $('[data-scroll]').on('click', scrollToSection);
 
 
-    
+    $("#skills").find("div").click(function () {
+
+        $("#skills").find("div").removeClass("skill-active");
+        $(this).addClass("skill-active");
+        let i = $(this).index() + 1;
+        $(".carousel-inner").find("div").removeClass("active");
+        $(".carousel-inner").find("div:nth-child(" + i + ")").addClass("active");
+
+    })
 
 
 });

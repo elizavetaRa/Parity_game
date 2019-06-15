@@ -6,6 +6,8 @@
 	<title>Parity-game</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
 	 crossorigin="anonymous">
@@ -36,7 +38,7 @@
 						<li data-scroll><a data-scroll href="#about">About</a></li>
 						<li data-scroll><a data-scroll href="#demo">Demo</a></li>
 						<li data-scroll><a data-scroll href="#features">Features</a></li>
-						<li data-scroll><a data-scroll href="#footer">Contact</a></li>
+						<li data-scroll><a data-scroll href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -77,11 +79,13 @@
 
 						<div class="col">
 							<h2>Concept</h2>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-								standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-								a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-								essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-								passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							<p>Compete with up to 8 friends in this local multiplayer game! Use skills to get the edge on the opposing team -
+								parry their shots or bamboozle the enemy with a bold spin-shot!
+							</p>
+							<p>
+								Play on over 10 different stages and choose between different game modes.
+
+							</p>
 						</div>
 
 						<div class="col">
@@ -95,11 +99,11 @@
 
 						<div class="col">
 							<h2>Developers</h2>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-								standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-								a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-								essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-								passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							<p>We are a group of avid local-coop gamers who decided to develop the video game we always wanted to play. Originally
+								developed during a 48 hours game-jam, we decided to take the idea a step further and share our game with all the
+								multiplayer-gamers out there!
+							</p>
+							<p>We hope you have as much fun with it as we do. Don't hesitate to give us feedback!</p>
 						</div>
 
 
@@ -125,9 +129,10 @@
 					</header>
 					<div id="demo-content">
 						<div>
-							<iframe id="demo-video" src="https://www.youtube.com/embed/-ZvTezhiYlI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							<iframe id="demo-video" src="https://www.youtube.com/embed/-yOhzIExwZg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							 allowfullscreen></iframe>
 						</div>
+
 					</div>
 				</div>
 			</section>
@@ -139,60 +144,105 @@
 
 			<!-- Features -->
 			<section id="features" class="main">
-					<div class="section-content">
-				<header class="major">
-					<h2>Skills</h2>
-				</header>
+				<div class="section-content">
+					<header class="major">
+						<h2>Skills</h2>
+					</header>
 
-				<div id="skills-overview">
+					<div id="skills-overview">
+						<div id="skill-video">
 
-					<iframe width="458" height="258" src="https://www.youtube.com/embed/oM2ynYN9btU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-					 allowfullscreen></iframe>
+							<div id="carouselExampleFade" class="carousel slide carousel-fade">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img class="d-block w-100" src="assets/css/images/sword.gif" alt="sword">
+										<div class="carousel-caption d-none d-md-block">
+											<h5>Sword</h5>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/css/images/bomb.gif" alt="bomb">
+										<div class="carousel-caption d-none d-md-block">
+											<h5>Bomb</h5>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/css/images/magnet.gif" alt="magnet">
+										<div class="carousel-caption d-none d-md-block">
+											<h5>Magnet</h5>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/css/images/powershot.gif" alt="powershot">
+										<div class="carousel-caption d-none d-md-block">
+											<h5>Powershot</h5>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/css/images/spinshot.gif" alt="spinshot">
+										<div class="carousel-caption d-none d-md-block">
+											<h5>Spinshot</h5>
+										</div>
+									</div>
+								</div>
+							</div>
 
-					<div id="skills">
-						<div class="skill">
-							<img src="assets/css/images/PowerUpCrash.png" />
-						</div>
-						<div class="skill">
-							<img src="assets/css/images/PowerUpDash.png" />
-						</div>
-						<div class="skill">
-							<img src="assets/css/images/PowerUpExplosion.png" />
-						</div>
-						<div class="skill">
-							<img src="assets/css/images/PowerUpMagnet.png" />
-						</div>
-						<div class="skill">
-							<img src="assets/css/images/PowerUpPowerShot.png" />
-						</div>
-						<div class="skill">
-							<img src="assets/css/images/PowerUpSpin.png" />
+
 						</div>
 
+						<div id="skills">
+							<div class="skill skill-active">
+								<img src="assets/css/images/PowerUpCrash.png" />
+							</div>
+							<div class="skill">
+								<img src="assets/css/images/PowerUpExplosion.png" />
+							</div>
+							<div class="skill">
+								<img src="assets/css/images/PowerUpMagnet.png" />
+							</div>
+							<div class="skill">
+								<img src="assets/css/images/PowerUpPowerShot.png" />
+							</div>
+							<div class="skill">
+								<img src="assets/css/images/PowerUpSpin.png" />
+							</div>
+
+						</div>
 					</div>
 				</div>
+			</section>
+
+			<!-- Contact -->
+			<section id="contact" class="main">
+				<div class="section-content">
+					<header class="major">
+						<div>
+							<h1>Contact</h1>
+						</div>
+					</header>
+					<dl class="alt">
+						<dt>Address</dt>
+						<dd>Musterstraße 15b, 01219 Dresden</dd>
+						<dt>Phone</dt>
+						<dd>+49 0000 00000000</dd>
+						<dt>Email</dt>
+						<dd><a href="#">information@uparity-game.com</a></dd>
+					</dl>
+					<ul class="icons">
+						<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+					</ul>
 				</div>
 			</section>
+
 
 		</div>
 
+
+
 		<!-- Footer -->
 		<footer id="footer">
-			<section>
-				<h2>Contact us</h2>
-				<dl class="alt">
-					<dt>Address</dt>
-					<dd>Musterstraße 15b, 01219 Dresden</dd>
-					<dt>Phone</dt>
-					<dd>+49 0000 00000000</dd>
-					<dt>Email</dt>
-					<dd><a href="#">information@uparity-game.com</a></dd>
-				</dl>
-				<ul class="icons">
-					<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
-				</ul>
-			</section>
+
 			<p class="copyright">&copy; Made with love.</p>
 		</footer>
 
@@ -200,6 +250,10 @@
 
 	<!-- Scripts -->
 	<script src="assets/js/main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	 crossorigin="anonymous"></script>
 
 </body>
 
