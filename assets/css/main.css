@@ -152,6 +152,7 @@ h1 {
 
                 #nav ul li a:hover {
                     background-color: rgba(222, 222, 222, 0.25);
+                    color: white;
                 }
 
                 #nav ul li a.active {
@@ -377,6 +378,13 @@ h1 {
     }
 
 
+    /* Impressum */
+
+    #impressum {
+        height: 95vh;
+    }
+
+
 
     /* Footer */
 
@@ -392,6 +400,15 @@ h1 {
     }
     .footer-content div{
         margin: 1%;
+    }
+
+    .footer-content div a{
+        margin: 4%;
+        
+    }
+
+    .footer-content div p{
+        margin-bottom: 3%;
     }
 
 
