@@ -276,7 +276,7 @@ h1 {
     }
 
     #demo {
-        background-color: rgb(121, 31, 115);
+        background-color: rgb(104, 26, 99);
         display: flex;
     }
 
@@ -372,7 +372,7 @@ h1 {
     }
 
     .btn-send {
-        background-color: rgb(10, 92, 10);
+        background-color: #0696b6;
         color: white;
     }
 
